@@ -18,9 +18,9 @@ void print_tree(node *p, int depth);
 
 void DFT(node *root);
 
-typedef struct stack
+typedef struct stack // shiould be named node
 {
-  struct node *node;
+  struct node *node; // data
   struct stack *next;
 } stack;
 

@@ -24,7 +24,7 @@ void DFT(node *root)
   s.node = root;
   s.next = NULL;
 
-  while (!isEmpty(&root->num))
+  while (!isEmpty(&s))
   {
     if (root->lchild != NULL && root->rchild != NULL)
     {
